@@ -1,0 +1,109 @@
+body {
+	text-align: center;
+	width: 830px;
+	font-family: Arial, Sans Serif;
+	color: black;
+	background: white;
+}
+
+a:hover {
+	background-color: #E0F0FF;
+}
+
+div#hotwords, div#permalink {
+	padding: 0.5em;
+	text-align: left;
+	font-size: 80%;
+	width: 80%;
+	margin: 10px auto 10px auto;
+}
+
+div#hotwords {
+	border: 1px solid green;
+	background-color: #CCFFCC;
+}
+
+div#permalink {
+	border: 1px solid darkorange;
+	background-color: #FFFFCC;
+	width: 200px;
+}
+
+div.list {
+	text-align: left;
+	width: 800px;
+	margin: 10px auto 10px auto;
+}
+
+div.listRight {
+	font-size: 90%;
+	line-height: 1.5em;
+	margin-left: 550px;
+	width: 200px;
+	max-width: 200px;
+	padding: 0em 0em 0em 2.5em;
+}
+
+div.listLeft {
+	float: left;
+	width: 550px;
+	max-width: 550px;
+}
+
+div.searchStat {
+	background-color: #E0F0FF;
+	text-align: right;
+	font-size: 90%;
+	height: 1.5em;
+}
+
+div.notice {
+	background-color: #FFCCFF;
+	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
+	height: 1.5em;
+}
+
+div.jumpMenu {
+	text-align: center;
+	font-size: 90%;
+}
+
+div.jumpMenu a {
+	color: black;
+}
+
+div.footer {
+	text-align: center;
+	font-size: 80%;
+	color: darkblue;
+}
+
+/*
+div.footer a {
+	color: darkblue;
+	text-decoration: none;
+}
+*/
+
+span.listTitle {
+	font-size: 90%;
+	font-family: Sans Serif;
+}
+
+span.listSnippet {
+	font-size: 80%;
+}
+
+span.listUrl {
+	font-size: 80%;
+	color: green;
+}
+
+div.groupName {
+	border: 1px solid green;
+	background-color: #CCFFCC;
+	font-weight: bold;
+	text-align: center;
+}

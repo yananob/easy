@@ -1,0 +1,54 @@
+.tabheader table {
+	border-collapse: collapse; /* for IE */
+	border-spacing: 0; /* for N6 */
+	width: 200px;
+}
+
+.tabheader table tr td {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	font-size: small;
+	text-align: center;
+}
+
+.tabheader .close {
+	border-style: solid;
+	border-width: 1px; 
+	border-color: gray;
+	background-color: #D0D8DD;
+	margin: 0;
+	padding: 0.5em;
+	white-space: nowrap;
+}
+.tabheader .open {
+	border-style: solid;
+	border-width: 1px; 
+	border-color: darkblue darkblue #F0F8FF darkblue;
+	background-color: #F0F8FF;
+	margin: 0;
+	padding: 0.5em;
+	white-space: nowrap;
+}
+.tabheader .spc {
+	border-style: solid;
+	border-width: 1px 0 1px 0; 
+	border-color: #F0F8FF #F0F8FF gray #F0F8FF;
+	margin:0;
+	padding: 0.5em;
+	white-space: nowrap;
+}
+
+.tabheader a {
+	text-decoration: none;
+}
+
+.tabbody {
+	font-size: 90%;
+	border-color: #F0F8FF darkblue darkblue darkblue;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.5em;
+	width: 200px;
+	background-color: #F0F8FF;
+}

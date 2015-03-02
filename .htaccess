@@ -1,0 +1,29 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^AmazonSearch/(.*)/([0-9]+)$ VCSearch.php?type=amazon&query=$1&start=$2 [L]
+RewriteRule ^AmazonSearch/(.*)$ VCSearch.php?type=amazon&query=$1 [L]
+RewriteRule ^JBookSearch/(.*)/([0-9]+)$ VCSearch.php?type=jbook&query=$1&start=$2 [L]
+RewriteRule ^JBookSearch/(.*)$ VCSearch.php?type=jbook&query=$1 [L]
+RewriteRule ^KinokuniyaSearch/(.*)/([0-9]+)$ VCSearch.php?type=kinokuniya&query=$1&start=$2 [L]
+RewriteRule ^KinokuniyaSearch/(.*)$ VCSearch.php?type=kinokuniya&query=$1 [L]
+RewriteRule ^ValuMoreSearch/(.*)/([0-9]+)$ VCSearch.php?type=valumore&query=$1&start=$2 [L]
+RewriteRule ^ValuMoreSearch/(.*)$ VCSearch.php?type=valumore&query=$1 [L]
+RewriteRule ^PlanexSearch/(.*)/([0-9]+)$ VCSearch.php?type=planex&query=$1&start=$2 [L]
+RewriteRule ^PlanexSearch/(.*)$ VCSearch.php?type=planex&query=$1 [L]
+RewriteRule ^Mag2Search/(.*)/([0-9]+)$ VCSearch.php?type=mag2&query=$1&start=$2 [L]
+RewriteRule ^Mag2Search/(.*)$ VCSearch.php?type=mag2&query=$1 [L]
+
+#RewriteCond %{QUERY_STRING} query=(.*)$
+#RewriteRule ^ServicesSearch/$ VCSearch.php?type=tanomail&query=%1 [L]
+#RewriteRule ^ServicesSearch/(.*)/([0-9]+)$ VCSearch.php?type=tanomail&query=$1&start=$2 [L]
+#RewriteRule ^ServicesSearch/(.*)$ VCSearch.php?type=tanomail&query=$1 [L]
+#RewriteRule ^TanomailSearch/$ VCSearch.php?type=tanomail&query=%1 [L]
+#RewriteRule ^TanomailSearch/(.*)/([0-9]+)$ VCSearch.php?type=tanomail&query=$1&start=$2 [L]
+#RewriteRule ^TanomailSearch/(.*)$ VCSearch.php?type=tanomail&query=$1 [L]
+
+RewriteRule ^rss_(.*)\.xml/(.*)/([0-9]+)$ ResultRSS.php?type=$1&query=$2&start=$3 [L]
+RewriteRule ^rss_(.*)\.xml/(.*)$ ResultRSS.php?type=$1&query=$2 [L]
+
+RewriteRule ^sitemaps_(.*)\.xml$ Sitemaps.php?type=$1 [L]

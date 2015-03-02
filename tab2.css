@@ -1,0 +1,64 @@
+/* copied from CSS Tab Designer 2 */
+
+#tabsC {
+	float:left;
+	width:100%;
+	background:#FFF;
+	font-size:75%;
+	line-height:normal;
+}
+#tabsC ul {
+	margin:0;
+	padding: .5em 0em 0 0em;
+	list-style:none;
+}
+#tabsC li {
+	display:inline;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+#tabsC a {
+	float:left;
+	background:url("images/tableftC.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+#tabsC a span {
+	float:left;
+	display:block;
+	background:url("images/tabrightC.gif") no-repeat right top;
+	padding:5px 5px 5px 5px;
+	color:#464E42;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsC a span {float:none;}
+/* End IE5-Mac hack */
+#tabsC a:hover span {
+	color:#FFF;
+}
+#tabsC a:hover {
+	background-position:0% -42px;
+}
+#tabsC a:hover span {
+	background-position:100% -42px;
+}
+
+#tabsC #current a {
+		background-position:0% -42px;
+}
+#tabsC #current a span {
+		background-position:100% -42px;
+}
+
+
+.tabbody {
+	font-size: 85%;
+	border-color: #EDF7E7 darkgreen darkgreen darkgreen;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.5em;
+	width: 180px;
+	background-color: #EDF7E7 ;
+}
