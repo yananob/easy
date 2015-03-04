@@ -25,3 +25,4 @@ Amazon簡単検索
 - Google Search API　（各Webサイトの検索）
 - Amazon Web Service　（Amazonの商品情報の取得）
 - Smarty　（テンプレートエンジン）
+- MySQL
