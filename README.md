@@ -11,6 +11,12 @@ Amazon簡単検索
 ようなことがありました。  
 そこで、「Googleの検索APIを使って各Webサイトの検索を簡単に行う」Webサービスとして、構築しました。
 
+その後、同様の仕組みで、各種簡単検索を構築しました。
+- Amazon簡単検索
+- JBook簡単検索　（書店サイト）
+- 紀伊國屋簡単検索　（書店サイト）
+- まぐまぐ簡単検索
+
 ## 動作環境URL　※現在検索が動作しません
 [こちら](http://nicher.s310.xrea.com/easy.nicher.jp/AmazonSearch/)  
 ※[Google Search API](http://api.google.com/GoogleSearch.wsdl)を使用していますが、これがいつの間にか使用不能になっていたようで、検索が動作しません。
