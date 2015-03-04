@@ -21,7 +21,8 @@ Amazon簡単検索
 [こちら](http://nicher.s310.xrea.com/easy.nicher.jp/AmazonSearch/)  
 ※[Google Search API](http://api.google.com/GoogleSearch.wsdl)を使用していますが、これがいつの間にか使用不能になっていたようで、検索が動作しません。
 
-## 使用技術
+## 使用技術等
+- PHP
 - Google Search API　（各Webサイトの検索）
 - Amazon Web Service　（Amazonの商品情報の取得）
 - Smarty　（テンプレートエンジン）
